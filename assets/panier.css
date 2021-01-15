@@ -96,7 +96,7 @@ p {
 }
 
 #product > div > * {
-  margin: 5px;
+  margin: 10px;
 }
 
 #product > div > p.product-info {
@@ -176,7 +176,8 @@ a {
   align-items: center;
   background-color: var(--white);
   border: 1px solid var(--dark-blue);
-  width: 60px
+  width: 60px;
+  margin-top: 1em
 }
 
 #more {
