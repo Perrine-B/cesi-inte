@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/reset.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts.css" rel="stylesheet" type="text/css">
+    <link href="assets/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/coordonnees.css" rel="stylesheet" type="text/css">
+    <title>Mode de livraison - Livraison 2/3 - Le Slip Français</title>
+</head>
+<body>
+<main>
+    <header>
+        <h1 class='title'>Organisons la livraison</h1>
+        <div class="container"><p class="stepper-text">Étape 1 sur 3</p></div>
+        <h2 class='subtitle'>Vos coordonnées</h2>
+    </header>
+    <div id="coordonnees-container" class="bloc">
+        <a class="link" href="" title="Identifiez-vous">Commander avec mon compte</a>
+        <h3>Commander directement</h3>
+        <p>Toutes les mentions suivies d'une astérique "*" sont obligatoires</p>
+        <form>
+            <label for="name" class="require">Nom</label>
+                <input id="name" type="text" placeholder="ex : Wallace" required>
+
+            <label for="prenom" class="require">Prénom</label>
+                <input id="prenom" type="text" placeholder="ex : Gromit" required>
+
+            <label for="number" class="require">N°</label>
+                <input id="number" type="text" placeholder="ex : 4" required>
+
+            <label for="voie" class="require">Voie</label>
+                <input id="voie" type="text" placeholder="ex : Allée des planteurs JMTLG" required>
+
+            <label for="postalCode" class="require">Code postal</label>
+                <input id="postalCode" type="text" placeholder="ex : 76000" required>
+
+            <label for="city" class="require">Commune</label>
+                <input id="city" type="text" placeholder="ex : Rouen" required>
+
+            <label for="email" class="require">Email - pour l'envoi de la facture et le suivi</label>
+                <input id="email" type="email" placeholder="ex : michel.michel@gmail.com" required>
+
+            <input id="rgpd" type="checkbox" required>
+            <label for="rgpd">J'autorise Le Slip Français a utiliser mes données
+                personnelles dans le cadre de cette transaction.</label>
+            <div class="bloc">
+                <input class='button' type="submit" value="Suivant" action="/envoi.html" method="post">
+                <!--<a class='button' href="/envoi.html" title="Valider mes coordonnées et choisir le mode de livraison">Suivant</a>-->
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+</html>
