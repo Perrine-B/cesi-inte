@@ -1,0 +1,91 @@
+.livraison-type {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: var(--light-blue);
+}
+
+form label {
+    display: block;
+    margin: 15px 0;
+    padding: 8px 0;
+}
+
+input {
+    float: right;
+    margin-right: 12px;
+}
+
+.nav-bt {
+    display: none;
+}
+
+form {
+    opacity: 0;
+    display: none;
+}
+
+.nav-bt:checked ~ form {
+    opacity: 1;
+    display: block;
+}
+
+.collapse {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+
+.collapse:after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15' fill='%23348'%3E%3Cpath d='M14.04 4.83l-6.59 7.13L.91 4.83l2.17-1.97 4.39 4.79 4.35-4.79 2.22 1.97z'/%3E%3C/svg%3E");
+}
+
+.nav-bt:checked+.collapse:after {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 10' fill='%23348'%3E%3Cpath d='M.91 7.49L7.5.36l6.54 7.13-2.18 1.97-4.39-4.79-4.35 4.79L.91 7.49z'/%3E%3C/svg%3E");
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+label {
+    position: relative;
+}
+
+input[type=radio] + label::before,
+input[type=radio] + label::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    right: 12px;
+    box-sizing: border-box;
+}
+
+input[type=radio] + label::before {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    transform: translateY(-0.1em);
+    border: 2px solid var(--dark-blue);
+    background: transparent;
+}
+
+input[type=radio]:checked + label::after {
+    width: .75em;
+    height: .75em;
+    transform: translateY(0.125em) translateX(-0.25em);
+    background-color: var(--dark-blue);
+}
+
+input[type=radio]:focus + label::before {
+    outline: 0.05rem dotted;
+}

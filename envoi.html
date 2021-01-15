@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="assets/reset.css" rel="stylesheet" type="text/css">
+        <link href="assets/fonts.css" rel="stylesheet" type="text/css">
+        <link href="assets/styles.css" rel="stylesheet" type="text/css">
+        <link href="assets/envoi.css" rel="stylesheet" type="text/css">
+        <title>Mode de livraison - Livraison 2/3 - Le Slip Français</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1 class='title'>Organisons la livraison</h1>
+                <div id="stepper"><p class="stepper-text">Étape 2 sur 3</p></div>
+                <h2 class='subtitle'>Votre mode de livraison</h2>
+            </header>
+            <div class="livraison-type">
+                <input id="collapse-domicile" class="nav-bt" type="checkbox" >
+                <label class="collapse" for="collapse-domicile">À domicile</label>
+                <form>
+                    <input type="radio" name="livraison" id="colissimo" value="colissimo">
+                    <label for="colissimo">Colissimo - 6,00€</label>
+
+                    <input type="radio" name="livraison" id="courrier" value="courrier">
+                    <label for="courrier">Courrier international - 3,50€</label>
+                </form>
+            </div>
+            <div class="livraison-type">
+                <h3 class="collapse">En point relais</h3>
+            </div>
+            <a class='button' href="/recap.html" title="Valider le mode de livraison et voir le recapitulatif de la commande">Suivant</a>
+        </main>
+    </body>
+</html>
