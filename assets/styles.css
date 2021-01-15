@@ -1,0 +1,24 @@
+
+/** VARIABLES*/
+/** si besoin : vert -> Element gratuit #29d991*/
+:root {
+ --red:  #c91b2a ;
+ --rouge-icon: #ba2c2d;
+ --rouge-subtitle: #fd7956;
+ --dark-blue: #334488;
+ --light-blue: #eff4fd;
+ --medium-blue: #4a7bd8;
+ --hover-blue: #829dc8;
+ --white: #fff;
+ /** fond input et lien nav mobile */
+ --light-grey: #f4f6f8;
+ --title-grey: #c3d0e4;
+ --icon-grey: #ccd4e7;
+ --dark-gray: #9ca4c5;
+ /* séparateur**/
+ --br-grey: #c3d0e4;
+}
+
+body {
+    background-color: var(--light-grey);
+}
