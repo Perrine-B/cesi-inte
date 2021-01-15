@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="assets/reset.css" rel="stylesheet">
-    <link href="assets/fonts.css" rel="stylesheet">
-    <link href="assets/styles.css" rel="stylesheet">
-    <link href="assets/panier.css" rel="stylesheet">
-</head>
-<body>
-    <h1>Organisons la livraison</h1>
-    <div id="stepper"><p class="stepper-text">Etape 3 sur 3</p></div>
-    <div>
-        <h2>Votre commande :</h2>
-        <p>1 produit :</p>
-    </div>
-    <div>
-        <p>Le Marius</p> 
-        <p>Taille M</p>
-        <p>1 produit :</p>
-        <p>indigo</p>
-        <p>Quantité: 1</p>
-        <p>40,00€</p>
-    </div>
-    <br>
-    <div>
-        <p>Produits: 40,00€ TTC</p>
-        <p>TVA à 20%</p> <a href="#">voir la commande hors taxes</a>
-        <p>Frais d'envoi: 6€ TTC</p>
-    </div>
-    <br>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="assets/reset.css" rel="stylesheet" />
+  <link href="assets/fonts.css" rel="stylesheet" />
+  <link href="assets/styles.css" rel="stylesheet" />
+  <link href="assets/panier.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Organisons la livraison</h1>
+  <div class='container'>
+    <p class="stepper-text">Etape 3 sur 3</p>
+  </div>
+  <div>
+    <h2>Votre commande :</h2>
+    <p>1 produit :</p>
+  </div>
+  <div id="product">
     <div>
-        <p>Total de la commande : 46,00€ TTC</p>
+      <img id="img-product" src="./assets/img/slip.jpg" alt="marius" />
     </div>
-    <button>payer</button>
-    <p>Livraison à domicile estimée le 19 janvier</p>
-    <p>Retours gratuits pendant 30 jours</p>
-    <a>Revenir au panier</a>
+    <div>
+      <h3>Le Marius</h3>
+      <p class='product-info'>Taille M</p>
+      <p class='product-info'>indigo</p>
+    </div>
+    <div class='infos'>
+      <p>Quantité: 1</p>
+      <p class='large-text'>40,00€</p>
+    </div>
+  </div>
+  <hr class='separator'>
+  </hr>
+  <div class='fee-area'>
+    <p class='large-text'>Produits: 40,00€ TTC</p>
+    <p class='smaller-text'>TVA à 20%, <a class='secondary-link' href="#">voir la commande hors taxes</a></p>
+
+    <p class='large-text'>Frais d'envoi: 6€ TTC</p>
+  </div>
+  <hr class='separator'>
+  </hr>
+
+  <div id='price-zone' class='container'>
+    <p class='large-text'>Total de la commande : 46,00€ TTC</p>
+  </div>
+  <button>payer</button>
+  <div id='bottom-mentions' >
+    <p class='notification bold smaller-text'>Livraison à domicile estimée le 19 janvier</p>
+    <p class='bold smaller-text'>Retours gratuits pendant 30 jours</p>
+    <a class='link'>Revenir au panier</a>
+  </div>
 </body>
+
 </html>

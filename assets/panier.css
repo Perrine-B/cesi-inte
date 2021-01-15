@@ -1,31 +1,145 @@
+
+/**utilies */
 body {
   margin: 15px;
-  font-size: 14px;
 }
 
-h1,
-h2 {
-  font-size: 22px;
+p {
+  font-size: 1.2em;
+}
+.smaller-text {
+  font-size: 1em;
+}
+.large-text {
+ font-size: 1.4em;
+}
+.bold {
   font-weight: bold;
-  margin: 0px auto;
-  padding: 0.7em;
-  color: var(--title-grey);
-  width: max-content;
 }
-
-h2 {
-  margin: 0px;
-  font-size: 18px;
-  color: var(--dark-blue);
-}
-
-#stepper {
+.container {
   display: flex;
   justify-content: center;
   background-color: var(--light-blue);
   margin: 0px -15px 0px -15px;
 }
+
+.separator {
+  border: 1px solid var(--title-grey);
+  margin: 15px -15px 15px -15px;
+}
+.notification {
+  color: var(--rouge-subtitle);
+}
+
+button {
+  display: flex;
+  font-size: 1.3em;
+  justify-content: center;
+  border: 1px solid var(--medium-blue);
+  padding: .8em;
+  text-transform: uppercase;
+  background-color: var(--medium-blue);
+  color: var(--white);
+  width: 90%;
+  margin: 1em auto;
+}
+
+.link {
+  font-size: 1.2em;
+  text-decoration: underline;
+  color:var(--hover-blue);
+}
+
+.secondary-link {
+  text-decoration: underline;
+  color:var(--dark-blue);
+}
+
+/**titles */
+h1,
+h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0px auto;
+  padding: .7em 0 .7em 0;
+  color: var(--title-grey);
+  width: max-content;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 0px;
+  font-size: 1.4em;
+  color: var(--dark-blue);
+}
+
+/**stepper */
+
 .stepper-text {
   padding: 0.5em;
   font-size: 1.5em;
 }
+
+/**products */
+#img-product {
+  width: 100px;
+}
+#product {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--light-blue);
+  padding: 1em;
+  margin: 30px -15px 30px -15px;
+}
+
+#product > div > * {
+  margin: 5px;
+}
+
+#product > div > p.product-info {
+  text-transform: uppercase;
+}
+
+#product > div > h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+/**calcul zone */
+.fee-area {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.fee-area > * {
+  margin: 0.5em;
+}
+
+/**price zone */
+#price-zone{
+  padding: 2em 0 2em 0;
+}
+
+#price-zone > p:first-of-type{
+  font-weight: bold;
+}
+
+#bottom-mentions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bottom-mentions > p, a {
+  padding: .5em;
+}
+
+
+
+
