@@ -150,3 +150,56 @@ a {
 #img-reassurance {
   width: 10vh;
 }
+
+#cross {
+  background: var(--dark-blue);
+  height: 10px;
+  position: relative;
+  width: 2px;
+  transform: rotate(45deg);
+}
+#cross:after {
+  background: var(--dark-blue);
+  content: "";
+  height: 2px;
+  left: -4px;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+
+
+/** quantity */
+#quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid var(--dark-blue);
+  width: 60px
+}
+
+#more {
+  background: var(--dark-blue);
+  height: 10px;
+  position: relative;
+  width: 2px;
+}
+#more:after {
+  background: var(--dark-blue);
+  content: "";
+  height: 2px;
+  left: -4px;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+
+#less {
+  background: var(--dark-blue);
+  height: 10px;
+  position: relative;
+  width: 2px;
+  transform: rotate(90deg);
+}
+
