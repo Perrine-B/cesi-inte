@@ -1,0 +1,39 @@
+@font-face {
+    font-family: GT Walsheim;
+    src: url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Regular.woff") format("woff"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Regular.woff2") format("woff2"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: GT Walsheim;
+    src: url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Bold.woff") format("woff"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Bold.woff2") format("woff2"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: GT Walsheim;
+    src: url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Regular-Oblique.woff") format("woff"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Regular-Oblique.woff2") format("woff2"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Regular-Oblique.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: GT Walsheim;
+    src: url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Ultra-Bold.woff") format("woff"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Ultra-Bold.woff2") format("woff2"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/GT-Walsheim-Ultra-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: slip_font;
+    src: url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/slip_font.eot?oommwi#iefix") format("embedded-opentype"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/slip_font.ttf?oommwi") format("truetype"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/slip_font.woff?oommwi") format("woff"), url("https://cdn.leslipfrancais.fr/themes/theme_nq/fonts/slip_font.svg?oommwi#slip_font") format("svg");
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+}
