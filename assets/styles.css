@@ -29,7 +29,78 @@ html {
  color: var(--dark-blue);
 }
 
+img {
+ width: auto;
+ height: 100%;
+}
+.bloc {
+ padding: 0 15px;
+}
+/* Boutons  et liens */
+
+.link {
+ font-size: 1.2em;
+ text-decoration: underline;
+ color:var(--hover-blue);
+}
+
+.secondary-link {
+ text-decoration: underline;
+ color:var(--dark-blue);
+}
+
+.button {
+ display: flex;
+ text-decoration: none;
+ font-size: 1.3em;
+ justify-content: center;
+ border: 1px solid var(--medium-blue);
+ padding: .8em;
+ text-transform: uppercase;
+ background-color: var(--medium-blue);
+ color: var(--white);
+ width: 90%;
+ margin: 1em auto;
+}
 
 body {
     background-color: var(--white);
+
+/* Titres */
+
+.title {
+ font-size: 1.8em;
+ font-weight: bold;
+ margin: 0 auto;
+ padding: .7em 0 .7em 0;
+ color: var(--title-grey);
+ width: max-content;
+}
+
+.subtitle {
+ font-weight: bold;
+ margin: 0;
+ font-size: 1.4em;
+ padding: .7em 0 .7em 0;
+ color: var(--dark-blue);
+ width: max-content;
+}
+
+/**stepper */
+.container {
+ display: flex;
+ justify-content: center;
+ background-color: var(--light-blue);
+ margin: 0px -15px 0px -15px;
+}
+
+.stepper-text {
+ padding: 0.5em;
+ font-size: 1.5em;
+}
+
+/* Formulaires */
+input:required:invalid {
+ border: 1px solid var(--rouge-subtitle);
+ box-shadow: none;
 }

@@ -1,16 +1,64 @@
 #confirmation-bloc {
     text-align: center;
+    font-weight: 700;
 }
+
+#confirmation-bloc header {
+    margin: 50px 15px 30px 15px;
+}
+
+.confirmation-titre {
+    font-size: 2em;
+}
+.sub-title {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+#confirmation-bloc .logo {
+    width: auto;
+    height: 125px;
+}
+
 #numero-commande {
-    padding: 22px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: var(--light-blue);
+}
+
+#numero-commande p {
+    padding: 5px 15px ;
+    margin: 6px 0;
 }
 
 #numero-commande > p:first-of-type {
-    font-size: 1.1em;
-    font-weight: 700;
+    font-size: 1.2em;
 }
 
-#numero-commande > p:first-of-type {
+#numero-commande > p:last-of-type {
+    font-size: 1.5em;
+}
+
+.confirmation-info {
+    margin: 0 15px;
     font-size: 1.1em;
-    font-weight: 700;
+}
+
+.confirmation-info > * {
+    margin-bottom: 12px;
+}
+
+.confirmation-info > p:first-of-type {
+    margin-bottom: 36px;
+    font-size: 1.2em;
+}
+
+.confirmation-info > p:nth-of-type(4) {
+    margin-top: 36px;
+    font-weight: 400;
+}
+
+.confirmation-info > p:last-of-type {
+    margin-top: 60px;
+    margin-bottom: 24px;
+    font-size: 1.5em;
 }
