@@ -21,11 +21,6 @@ p {
   margin: 0px -15px 0px -15px;
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-}
-
 .separator {
   border: 1px solid var(--title-grey);
   margin: 15px -15px 15px -15px;
@@ -76,16 +71,9 @@ p {
   width: max-content;
 }
 
-/**stepper */
-
-.stepper-text {
-  padding: 0.5em;
-  font-size: 1.5em;
-}
-
 /**products */
 #img-product {
-  width: 100px;
+  width: 25vw;
 }
 #product {
   display: flex;
@@ -118,11 +106,20 @@ p {
 .fee-area {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
 }
 
 .fee-area > * {
   margin: 0.5em;
+}
+
+/**price zone */
+#price-zone {
+  padding: 2em 0 2em 0;
+}
+
+#price-zone > p:first-of-type {
+  font-weight: bold;
 }
 
 #bottom-mentions {
@@ -135,18 +132,3 @@ a {
   padding: 0.5em;
 }
 
-.reassurance {
-  padding: 0.3em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 2em
-}
-
-#reassurance {
-  margin-bottom: 1.5em;
-}
-
-#img-reassurance {
-  width: 10vh;
-}

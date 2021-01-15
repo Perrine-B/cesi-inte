@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Le Slip Français - Panier</title>
   <link href="assets/reset.css" rel="stylesheet" />
   <link href="assets/fonts.css" rel="stylesheet" />
   <link href="assets/styles.css" rel="stylesheet" />
@@ -12,14 +12,8 @@
 </head>
 
 <body>
-  <h1 class='title'>Organisons la livraison</h1>
-  <div class='container'>
-    <p class="stepper-text">Etape 3 sur 3</p>
-  </div>
-  <div>
-    <h2 class='subtitle'>Votre commande :</h2>
-    <p>1 produit :</p>
-  </div>
+  <h1 class='title'>Votre panier</h1>
+  <p class='smaller-text'>1 produit dans votre panier </p>
   <div id="product">
     <div>
       <img id="img-product" src="./assets/img/slip.jpg" alt="marius" />
@@ -28,31 +22,33 @@
       <h3>Le Marius</h3>
       <p class='product-info'>Taille M</p>
       <p class='product-info'>indigo</p>
+      <p>Quantité: 1</p>
     </div>
     <div class='infos'>
-      <p>Quantité: 1</p>
       <p class='large-text'>40,00€</p>
     </div>
   </div>
   <hr class='separator'>
   </hr>
   <div class='fee-area'>
-    <p class='large-text'>Produits: 40,00€ TTC</p>
-    <p class='smaller-text'>TVA à 20%, <a class='secondary-link' href="#">voir la commande hors taxes</a></p>
-
-    <p class='large-text'>Frais d'envoi: 6€ TTC</p>
+    <p class='large-text bold'> 40,00€ TTC</p>
+    <p class='notification bold smaller-text'>Plus que 10,00 € pour la livraison gratuite !</p>
   </div>
   <hr class='separator'>
   </hr>
-
-  <div id='price-zone' class='container'>
-    <p class='large-text'>Total de la commande : 46,00€ TTC</p>
+  <div id='reassurance' class='container'>
+    <div class='reassurance'>
+    <img id="img-reassurance" src="./assets/img/slip.jpg" alt="marius" />
   </div>
-  <button>payer</button>
-  <div id='bottom-mentions' >
-    <p class='notification bold smaller-text'>Livraison à domicile estimée le 19 janvier</p>
+    <div class='reassurance'>
+    <p>Pourquoi ne pas regarder les packs ?</p>
+    <a class='secondary-link'>Je découvre</a>
+  </div>
+  </div>
+  <a class='centered link'>Ajouter d'autres produits</a>
+  <a class='button' href='./coordonnees.html'>passer ma commande</a>
+  <div id='bottom-mentions'>
     <p class='bold smaller-text'>Retours gratuits pendant 30 jours</p>
-    <a class='link'>Revenir au panier</a>
   </div>
 </body>
 
