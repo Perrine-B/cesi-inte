@@ -22,7 +22,7 @@
         <a class="link" href="" title="Identifiez-vous">Commander avec mon compte</a>
         <h3>Commander directement</h3>
         <p>Toutes les mentions suivies d'une astérique "*" sont obligatoires</p>
-        <form>
+        <form action="/envoi.html" method="post">
             <label for="name" class="require">Nom</label>
                 <input id="name" type="text" placeholder="ex : Wallace" required>
 
@@ -48,7 +48,7 @@
             <label for="rgpd">J'autorise Le Slip Français a utiliser mes données
                 personnelles dans le cadre de cette transaction.</label>
             <div class="bloc">
-                <input class='button' type="submit" value="Suivant" action="/envoi.html" method="post">
+                <input class='button' type="submit" value="Suivant">
                 <!--<a class='button' href="/envoi.html" title="Valider mes coordonnées et choisir le mode de livraison">Suivant</a>-->
             </div>
         </form>
