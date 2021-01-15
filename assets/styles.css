@@ -62,7 +62,9 @@ img {
  width: 90%;
  margin: 1em auto;
 }
-
+.button:hover, .button:active {
+box-shadow: 4px 4px 0 -2px #fff,4px 4px 0 0 var(--medium-blue);
+}
 body {
     background-color: var(--white);
 }

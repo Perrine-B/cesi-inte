@@ -1,0 +1,45 @@
+.ariane {
+    margin-top: 12px;
+}
+.full-img {
+    width: 100vw;
+    height: auto;
+    margin-top: 12px;
+}
+.info {
+    margin: 24px 0 12px 0;
+}
+.info > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+.price, .size {
+    font-size: 1.4em;
+}
+.size {
+    text-transform: uppercase;
+}
+.info-livraison {
+    margin: 36px 0 36px;
+    font-weight: 700;
+}
+.info-livraison >p {
+    margin: 20px 0;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 48px 0 12px;
+    color: var(--medium-blue);
+}
+select {
+    width: 80%;
+    margin: auto;
+    padding: 12px;
+    color: var(--medium-blue);
+    border: 1px solid var(--medium-blue);
+}
+option {
+    border: 1px solid var(--medium-blue);
+}

@@ -8,18 +8,38 @@
     <link href="assets/reset.css" rel="stylesheet">
     <link href="assets/fonts.css" rel="stylesheet">
     <link href="assets/styles.css" rel="stylesheet">
+    <link href="assets/produit-j.css" rel="stylesheet">
 </head>
 <body>
 <main>
     <article>
         <div id="ariane">Accueil / Masculin /Sous-vêtement Homme / Boxers Homme</div>
-        <h1 class="title-produit">Le Marius</h1>
-        <p class="subtitle"></p>
-        <div class="info">
-            <span>40,00€</span><span>Le prix juste</span><span>TAILLE : </span><span>Guide des tailles</span>
-            <ul>
-                <li>XS</li>
-            </ul>
+        <div>
+            <img class="full-img" src="assets/img/le-marius-boxer-mariniere-bleu-et-blanc.webp" alt="">
+        </div>
+        <div class="bloc">
+            <h1 class="subtitle">Le Marius</h1>
+            <p>Boxer court uni en coton</p>
+            <div class="info">
+                <div><span class="price">40,00€</span><span class="link">Le prix juste</span></div>
+                <div><label class="size" for="size">Taille :</label><span class="link">Guide des tailles</span></div>
+                <form action="/panier.html">
+                    <select name="size" id="size">
+                        <option value="0" selected="selected">Choisissez votre taille</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <input class='button' type="submit" value="Ajouter au panier">
+                </form>
+            </div>
+            <a class="link centered" href="" title="Réserver vos produits en magasin">Réservez en magasin</a>
+            <div class="info-livraison">
+            <p>Livraison offerte dès 50€ d'achat</p>
+            <p class="notification">Livraison Colissimo estimée le 19 janvier</p>
+            <p>Retours gratuits pendant 30 jours</p>
+            </div>
         </div>
         <hr class='separator'/>
         <p class='bold smaller-text'>Fabriqué avec amour à Saint-André-Lez-Lille (59) </p>
