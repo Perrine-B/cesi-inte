@@ -55,9 +55,7 @@ button {
   color:var(--dark-blue);
 }
 
-/**titles */
-h1,
-h2 {
+.title {
   font-size: 1.8em;
   font-weight: bold;
   margin: 0px auto;
@@ -66,11 +64,13 @@ h2 {
   width: max-content;
 }
 
-h2 {
+.subtitle {
   font-weight: bold;
   margin: 0px;
   font-size: 1.4em;
+  padding: .7em 0 .7em 0;
   color: var(--dark-blue);
+  width: max-content;
 }
 
 /**stepper */
