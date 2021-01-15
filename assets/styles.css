@@ -94,3 +94,9 @@ img {
  padding: 0.5em;
  font-size: 1.5em;
 }
+
+/* Formulaires */
+input:required:invalid {
+ border: 1px solid var(--rouge-subtitle);
+ box-shadow: none;
+}
