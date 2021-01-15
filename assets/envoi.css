@@ -1,5 +1,5 @@
 header {
-    margin: 15px;
+    margin: 0 15px;
 }
 
 .livraison-type {
@@ -65,8 +65,8 @@ label {
     position: relative;
 }
 
-input[type=radio] + label::before,
-input[type=radio] + label::after {
+input[type=radio] + label:before,
+input[type=radio] + label:after {
     content: '';
     position: absolute;
     border-radius: 50%;
@@ -74,7 +74,7 @@ input[type=radio] + label::after {
     box-sizing: border-box;
 }
 
-input[type=radio] + label::before {
+input[type=radio] + label:before {
     display: inline-block;
     width: 1.2em;
     height: 1.2em;
@@ -83,13 +83,13 @@ input[type=radio] + label::before {
     background: transparent;
 }
 
-input[type=radio]:checked + label::after {
+input[type=radio]:checked + label:after {
     width: .75em;
     height: .75em;
     transform: translateY(0.125em) translateX(-0.25em);
     background-color: var(--dark-blue);
 }
 
-input[type=radio]:focus + label::before {
+input[type=radio]:focus + label:before {
     outline: 0.05rem dotted;
 }
