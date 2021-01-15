@@ -104,3 +104,32 @@ input:required:invalid {
  border: 1px solid var(--rouge-subtitle);
  box-shadow: none;
 }
+
+.smaller-text {
+    font-size: 1em;
+  }
+  .large-text {
+    font-size: 1.4em;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-blue);
+    margin: 0px -15px 0px -15px;
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .separator {
+    border: 1px solid var(--title-grey);
+    margin: 15px -15px 15px -15px;
+  }
+  .notification {
+    color: var(--rouge-subtitle);
+  }

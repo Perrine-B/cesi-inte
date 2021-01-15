@@ -5,34 +5,6 @@ body {
 p {
   font-size: 1.2em;
 }
-.smaller-text {
-  font-size: 1em;
-}
-.large-text {
-  font-size: 1.4em;
-}
-.bold {
-  font-weight: bold;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  background-color: var(--light-blue);
-  margin: 0px -15px 0px -15px;
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-}
-
-.separator {
-  border: 1px solid var(--title-grey);
-  margin: 15px -15px 15px -15px;
-}
-.notification {
-  color: var(--rouge-subtitle);
-}
 
 .button {
   display: flex;
@@ -140,7 +112,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 2em
+  padding: 2em;
 }
 
 #reassurance {
@@ -168,7 +140,6 @@ a {
   width: 10px;
 }
 
-
 /** quantity */
 #quantity {
   display: flex;
@@ -177,7 +148,7 @@ a {
   background-color: var(--white);
   border: 1px solid var(--dark-blue);
   width: 60px;
-  margin-top: 1em
+  margin-top: 1em;
 }
 
 #more {
@@ -203,4 +174,3 @@ a {
   width: 2px;
   transform: rotate(90deg);
 }
-
