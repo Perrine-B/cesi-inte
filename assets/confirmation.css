@@ -1,0 +1,16 @@
+#confirmation-bloc {
+    text-align: center;
+}
+#numero-commande {
+    padding: 22px;
+}
+
+#numero-commande > p:first-of-type {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+#numero-commande > p:first-of-type {
+    font-size: 1.1em;
+    font-weight: 700;
+}
